@@ -4,7 +4,7 @@ import {MongoDBAdapter} from "@next-auth/mongodb-adapter";
 import clientPromise from "@/lib/mongodb";
 
 // change adminEmails with your email
-const adminEmails = [];
+const adminEmails = ['nguyenhoanghai20021712@gmail.com'];
 
 export const authOptions = {
   secret: process.env.SECRET,
