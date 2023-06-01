@@ -114,7 +114,7 @@ function Categories({swal}) {
             <option value="">No parent category</option>
             {categories.length > 0 && categories.map(category => (
             //   <option key={category._id} value={category._id}>{category.name}</option>
-            <option value={category._id}>{category.name}</option>
+            <option key={category._id} value={category._id}>{category.name}</option>
             ))}
           </select>
         </div>
@@ -129,7 +129,7 @@ function Categories({swal}) {
           {properties.length > 0 && properties.map((property,index) => (
             // <div key={property.name} className="flex gap-1 mb-2">
             // eslint-disable-next-line react/jsx-key
-            <div className="flex gap-1 mb-2">
+            <div key={property.name} className="flex gap-1 mb-2">
               <input type="text"
                      value={property.name}
                      className="mb-0"
