@@ -10,6 +10,8 @@ CRUD categories
 ![image](https://github.com/nhhai819/shop_admin/assets/81414202/83328362-bb88-4b4e-abc2-d443c4a26a6f)
 
 Screen history order
+![image](https://github.com/nhhai819/shop_admin/assets/81414202/28b6ec08-4069-422f-95a3-c6b0316ed5f5)
+
 
 # List function
 The project was created with an admin role to help manage a sales website. Admin can CRUD products, categories and can view purchase history of the site. It is also possible to add attributes for each category
